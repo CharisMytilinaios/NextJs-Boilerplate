@@ -1,0 +1,246 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:react/recommended",
+    "airbnb",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "react-hooks",
+    "jsx-max-len",
+    "promise",
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "@typescript-eslint/explicit-function-return-type": [
+      "error",
+      {
+        "allowExpressions": true
+      }
+    ],
+    "@typescript-eslint/no-shadow": [
+      "error"
+    ],
+    "@typescript-eslint/no-unused-vars": [
+      "error"
+    ],
+    "@typescript-eslint/no-use-before-define": [
+      "error"
+    ],
+    "array-bracket-spacing": [
+      2,
+      "always",
+      {
+        "arraysInArrays": false,
+        "objectsInArrays": false,
+        "singleValue": true
+      }
+    ],
+    "arrow-body-style": [
+      2,
+      "always"
+    ],
+    "arrow-parens": [
+      2,
+      "always"
+    ],
+    "func-names": [
+      2,
+      "as-needed"
+    ],
+    "function-paren-newline": [
+      2,
+      "consistent"
+    ],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
+    "import/no-extraneous-dependencies": [
+      2,
+      {
+        "devDependencies": true
+      }
+    ],
+    "import/prefer-default-export": "off",
+    "indent": [
+      2,
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "jsx-a11y/click-events-have-key-events": [
+      0
+    ],
+    "jsx-a11y/label-has-for": [
+      0
+    ],
+    "jsx-max-len/jsx-max-len": [
+      2,
+      {
+        "lineMaxLength": 120,
+        "tabWidth": 2
+      }
+    ],
+    "jsx-quotes": [
+      2,
+      "prefer-single"
+    ],
+    "keyword-spacing": [
+      2,
+      {
+        "after": true,
+        "before": true
+      }
+    ],
+    "linebreak-style": [
+      2,
+      "unix"
+    ],
+    "max-len": [
+      2,
+      120,
+      {
+        "ignoreUrls": true,
+        "ignoreComments": false,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true
+      }
+    ],
+    "new-cap": [
+      0
+    ],
+    "newline-per-chained-call": [
+      2,
+      {
+        "ignoreChainWithDepth": 10
+      }
+    ],
+    "no-console": [
+      0
+    ],
+    "no-multi-spaces": [
+      2
+    ],
+    "no-multiple-empty-lines": [
+      2,
+      {
+        "max": 1
+      }
+    ],
+    "no-nested-ternary": [
+      0
+    ],
+    "no-param-reassign": [
+      2,
+      {
+        "props": false
+      }
+    ],
+    "no-restricted-imports": [
+      "error",
+      {
+        "patterns": [
+          "@mui/*/*/*",
+          "!@mui/material/test-utils/*"
+        ]
+      }
+    ],
+    "no-shadow": "off",
+    "no-trailing-spaces": [
+      2
+    ],
+    "no-underscore-dangle": [
+      0
+    ],
+    "no-unused-vars": "off",
+    "no-use-before-define": "off",
+    "object-curly-newline": [
+      "error",
+      {
+        "consistent": true
+      }
+    ],
+    "object-curly-spacing": [
+      2,
+      "always"
+    ],
+    "promise/no-return-in-finally": 2,
+    "promise/no-return-wrap": [
+      2
+    ],
+    "promise/param-names": [
+      2
+    ],
+    "quotes": [
+      2,
+      "single"
+    ],
+    "react-hooks/exhaustive-deps": "warn",
+    "react-hooks/rules-of-hooks": "error",
+    "react/function-component-definition": [
+      2,
+      {
+        "namedComponents": "arrow-function",
+        "unnamedComponents": "arrow-function"
+      }
+    ],
+    "react/jsx-curly-spacing": [
+      2,
+      {
+        "when": "always"
+      }
+    ],
+    "react/jsx-filename-extension": [
+      "warn",
+      {
+        "extensions": [
+          ".tsx"
+        ]
+      }
+    ],
+    "react/jsx-sort-props": [
+      "error"
+    ],
+    "react/jsx-uses-react": "off",
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
+    "semi": [
+      2,
+      "always"
+    ],
+    "space-before-blocks": [
+      2,
+      "always"
+    ],
+    "space-before-function-paren": [
+      2,
+      {
+        "anonymous": "always",
+        "named": "never"
+      }
+    ],
+    "template-curly-spacing": [
+      2,
+      "always"
+    ],
+    "yoda": [
+      2,
+      "always"
+    ]
+  }
+}
