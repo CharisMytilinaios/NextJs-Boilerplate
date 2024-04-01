@@ -1,9 +1,17 @@
 import { FC, ReactElement } from 'react';
+import MainPageLayout from '@/components/main-page-layout';
+import AccordionExample from '@/components/examples/accordion-example';
+import DropdownMenuExample from '@/components/examples/dropdown-menu-example';
 
-const Home: FC = (): ReactElement => {
+const RootPage: FC = (): ReactElement => {
   return (
-    <div>Main Page</div>
+    <MainPageLayout>
+      <AccordionExample />
+      <DropdownMenuExample />
+    </MainPageLayout>
   );
 };
 
-export default Home;
+RootPage.displayName = 'RootPage';
+
+export default RootPage;
