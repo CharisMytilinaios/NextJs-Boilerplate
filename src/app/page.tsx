@@ -10,6 +10,10 @@ import AlertsExample from '@/components/examples/alert-example';
 import AlertDialogExample from '@/components/examples/alert-dialog-example';
 
 import './root-page.scss';
+import AspectRatioExample from '@/components/examples/aspect-ratio-example';
+import AvatarsExample from '@/components/examples/avatar-example';
+import BadgeExample from '@/components/examples/badge-example';
+import BreadcrumbExample from '@/components/examples/breadcrumb-example';
 
 const RootPage: FC = (): ReactElement => {
   return (
@@ -43,6 +47,30 @@ const RootPage: FC = (): ReactElement => {
         <h2>Alert Dialogs</h2>
         <div className='section__container'>
           <AlertDialogExample />
+        </div>
+      </section>
+      <section className='section' id='aspect-ration'>
+        <h2>Aspect Ratio</h2>
+        <div className='section__container w-[450px]'>
+          <AspectRatioExample />
+        </div>
+      </section>
+      <section className='section' id='avatars'>
+        <h2>Avatars</h2>
+        <div className='section__container'>
+          <AvatarsExample />
+        </div>
+      </section>
+      <section className='section' id='badges'>
+        <h2>Badges</h2>
+        <div className='section__container'>
+          <BadgeExample />
+        </div>
+      </section>
+      <section className='section' id='breadcrumbs'>
+        <h2>Breadcrumbs</h2>
+        <div className='section__container'>
+          <BreadcrumbExample />
         </div>
       </section>
     </MainPageLayout>
