@@ -3,6 +3,9 @@ import { Lato } from 'next/font/google';
 import { FC, PropsWithChildren, ReactElement } from 'react';
 import '@/styles/main.scss';
 import ThemeProvider from '@/providers/ThemeProvider';
+import Header from '@/components/header';
+import Footer from '@/components/footer';
+import { Theme } from '@/types';
 
 const lato = Lato({
   weight: [ '100', '300', '400', '700', '900' ],
@@ -24,10 +27,12 @@ const RootLayout: FC<PropsWithChildren> = ({
       <body>
         <ThemeProvider
           attribute='class'
-          defaultTheme='system'
+          defaultTheme={ Theme.DARK }
           enableSystem
         >
+          <Header />
           {children}
+          <Footer />
         </ThemeProvider>
       </body>
     </html>

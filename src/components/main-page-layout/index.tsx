@@ -1,6 +1,8 @@
 import React, { FC, PropsWithChildren, ReactElement } from 'react';
 import type { ClassValue } from 'clsx';
 import { cn } from '@/utils/lib';
+import ScrollArea from '@/components/ui/scroll-area';
+import './main-page-layout.scss';
 
 interface MainPageLayoutProps extends PropsWithChildren {
   className?: ClassValue[] | ClassValue;
@@ -8,9 +10,11 @@ interface MainPageLayoutProps extends PropsWithChildren {
 
 const MainPageLayout: FC<MainPageLayoutProps> = ({ className = [], children }: MainPageLayoutProps): ReactElement => {
   return (
-    <main className={ cn(className) }>
-      {children}
-    </main>
+    <ScrollArea className='h-full'>
+      <main className={ cn(className) }>
+        {children}
+      </main>
+    </ScrollArea>
   );
 };
 

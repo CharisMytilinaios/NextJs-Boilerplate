@@ -1,3 +1,5 @@
+'use client';
+
 import React, { ComponentPropsWithoutRef, ElementRef, forwardRef, ReactElement } from 'react';
 import { Content } from '@radix-ui/react-dropdown-menu';
 import { cn } from '@/utils/lib';
