@@ -1,4 +1,4 @@
-import React, { FC, PropsWithChildren, ReactElement } from 'react';
+import type { FC, PropsWithChildren, ReactElement } from 'react';
 import type { ClassValue } from 'clsx';
 import { cn } from '@/utils/lib';
 import ScrollArea from '@/components/ui/scroll-area';

@@ -1,4 +1,4 @@
-import React, { FC, ReactElement } from 'react';
+import type { FC, ReactElement } from 'react';
 import Badge from '@/components/ui/badge';
 
 const BadgeExample: FC = (): ReactElement => {

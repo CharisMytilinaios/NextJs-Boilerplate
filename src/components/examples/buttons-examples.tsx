@@ -1,4 +1,4 @@
-import React, { FC, ReactElement } from 'react';
+import type { FC, ReactElement } from 'react';
 import Button from '@/components/ui/button';
 import { ChevronRight, Loader2, Mail } from 'lucide-react';
 import Link from 'next/link';

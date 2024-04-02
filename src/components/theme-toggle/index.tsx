@@ -1,7 +1,8 @@
 'use client';
 
 import { useTheme } from 'next-themes';
-import React, { FC, ReactElement, useCallback } from 'react';
+import type { FC, ReactElement } from 'react';
+import { useCallback } from 'react';
 import DropdownMenu from '@/components/ui/dropdown-menu';
 import DropdownMenuTrigger from '@/components/ui/dropdown-menu/dropdown-menu-trigger';
 import Button from '@/components/ui/button';

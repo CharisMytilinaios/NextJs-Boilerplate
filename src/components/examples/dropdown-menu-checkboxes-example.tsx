@@ -1,7 +1,7 @@
 'use client';
 
-import React, { FC, ReactElement, useState } from 'react';
-import { DropdownMenuCheckboxItemProps } from '@radix-ui/react-dropdown-menu';
+import { FC, ReactElement, useState } from 'react';
+import type { DropdownMenuCheckboxItemProps } from '@radix-ui/react-dropdown-menu';
 import DropdownMenu from '@/components/ui/dropdown-menu';
 import DropdownMenuTrigger from '@/components/ui/dropdown-menu/dropdown-menu-trigger';
 import Button from '@/components/ui/button';

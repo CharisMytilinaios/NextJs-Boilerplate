@@ -1,4 +1,4 @@
-import React, { FC, ReactElement } from 'react';
+import type { FC, ReactElement } from 'react';
 import AlertDialogTrigger from '@/components/ui/alert-dialog/alert-dialog-trigger';
 import AlertDialog from '@/components/ui/alert-dialog';
 import Button from '@/components/ui/button';

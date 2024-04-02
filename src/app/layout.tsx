@@ -1,11 +1,11 @@
 import type { Metadata } from 'next';
 import { Lato } from 'next/font/google';
-import { FC, PropsWithChildren, ReactElement } from 'react';
-import '@/styles/main.scss';
+import type { FC, PropsWithChildren, ReactElement } from 'react';
 import ThemeProvider from '@/providers/ThemeProvider';
 import Header from '@/components/header';
 import Footer from '@/components/footer';
 import { Theme } from '@/types';
+import '@/styles/main.scss';
 
 const lato = Lato({
   weight: [ '100', '300', '400', '700', '900' ],

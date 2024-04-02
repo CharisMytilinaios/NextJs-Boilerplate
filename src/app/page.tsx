@@ -1,4 +1,4 @@
-import { FC, ReactElement } from 'react';
+import type { FC, ReactElement } from 'react';
 import MainPageLayout from '@/components/main-page-layout';
 import AccordionExample from '@/components/examples/accordion-example';
 import DropdownMenuExample from '@/components/examples/dropdown-menu-example';
@@ -8,12 +8,11 @@ import DropdownMenuRadioExample from '@/components/examples/dropdown-menu-radio-
 import ButtonsExamples from '@/components/examples/buttons-examples';
 import AlertsExample from '@/components/examples/alert-example';
 import AlertDialogExample from '@/components/examples/alert-dialog-example';
-
-import './root-page.scss';
 import AspectRatioExample from '@/components/examples/aspect-ratio-example';
 import AvatarsExample from '@/components/examples/avatar-example';
 import BadgeExample from '@/components/examples/badge-example';
-import BreadcrumbExample from '@/components/examples/breadcrumb-example';
+import './root-page.scss';
+import DatePickerExample from '@/components/examples/date-picker-example';
 
 const RootPage: FC = (): ReactElement => {
   return (
@@ -67,10 +66,10 @@ const RootPage: FC = (): ReactElement => {
           <BadgeExample />
         </div>
       </section>
-      <section className='section' id='breadcrumbs'>
-        <h2>Breadcrumbs</h2>
+      <section className='section' id='calendar'>
+        <h2>Calendar</h2>
         <div className='section__container'>
-          <BreadcrumbExample />
+          <DatePickerExample />
         </div>
       </section>
     </MainPageLayout>

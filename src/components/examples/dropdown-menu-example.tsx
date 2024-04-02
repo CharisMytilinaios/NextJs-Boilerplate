@@ -1,4 +1,4 @@
-import React, { FC, ReactElement } from 'react';
+import type { FC, ReactElement } from 'react';
 import DropdownMenu from '@/components/ui/dropdown-menu';
 import DropdownMenuTrigger from '@/components/ui/dropdown-menu/dropdown-menu-trigger';
 import DropdownMenuContent from '@/components/ui/dropdown-menu/dropdown-menu-content';

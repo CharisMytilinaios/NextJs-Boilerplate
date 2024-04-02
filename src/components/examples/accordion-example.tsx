@@ -1,4 +1,4 @@
-import React, { FC, ReactElement } from 'react';
+import type { FC, ReactElement } from 'react';
 import Accordion from '@/components/ui/accordion';
 import AccordionItem from '@/components/ui/accordion/accordion-item';
 import AccordionTrigger from '@/components/ui/accordion/accordion-trigger';

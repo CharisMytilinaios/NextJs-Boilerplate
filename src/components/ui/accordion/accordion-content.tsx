@@ -1,6 +1,7 @@
 'use client';
 
-import React, { ComponentPropsWithoutRef, ElementRef, forwardRef, ReactElement } from 'react';
+import type { ComponentPropsWithoutRef, ElementRef, ReactElement } from 'react';
+import { forwardRef } from 'react';
 import { Content } from '@radix-ui/react-accordion';
 import { cn } from '@/utils/lib';
 

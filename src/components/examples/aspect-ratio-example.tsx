@@ -1,4 +1,4 @@
-import React, { FC, ReactElement } from 'react';
+import type { FC, ReactElement } from 'react';
 import AspectRatio from '@/components/ui/aspect-ratio';
 import Image from 'next/image';
 

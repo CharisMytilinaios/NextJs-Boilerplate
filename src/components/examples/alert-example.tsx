@@ -1,4 +1,4 @@
-import React, { FC, ReactElement } from 'react';
+import type { FC, ReactElement } from 'react';
 import Alert from '@/components/ui/alert';
 import { AlertCircle, Terminal } from 'lucide-react';
 import AlertTitle from '@/components/ui/alert/alert-title';

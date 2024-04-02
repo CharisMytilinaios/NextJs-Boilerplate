@@ -1,4 +1,4 @@
-import React, { FC, ReactElement } from 'react';
+import type { FC, ReactElement } from 'react';
 import Avatar from '@/components/ui/avatar';
 import Image from 'next/image';
 import AvatarFallback from '@/components/ui/avatar/avatar-fallback';
