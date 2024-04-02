@@ -22,6 +22,8 @@ import CarouselEventsExample from '@/components/examples/carousel-events-example
 import PopoverExample from '@/components/examples/popover-example';
 import DialogExample from '@/components/examples/dialog-example';
 import './root-page.scss';
+import DatepickerWithRangeExample from '@/components/examples/datepicker-with-range-example';
+import DatepickerWithPresetsExample from '@/components/examples/datepicker-with-presets-example';
 
 const RootPage: FC = (): ReactElement => {
   return (
@@ -123,6 +125,14 @@ const RootPage: FC = (): ReactElement => {
         <h2>Dialogs</h2>
         <div className='section__container'>
           <DialogExample />
+        </div>
+      </section>
+      <section className='section' id='datepickers'>
+        <h2>DatePickers</h2>
+        <div className='section__container'>
+          <DatePickerExample />
+          <DatepickerWithRangeExample />
+          <DatepickerWithPresetsExample />
         </div>
       </section>
     </MainPageLayout>
