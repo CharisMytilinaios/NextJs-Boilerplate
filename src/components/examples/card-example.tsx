@@ -8,6 +8,11 @@ import Label from '@/components/ui/label';
 import { Input } from '@/components/ui/input';
 import CardFooter from '@/components/ui/card/card-footer';
 import Button from '@/components/ui/button';
+import Select from '@/components/ui/select';
+import SelectTrigger from '@/components/ui/select/select-trigger';
+import SelectValue from '@/components/ui/select/select-value';
+import SelectContent from '@/components/ui/select/select-content';
+import SelectItem from '@/components/ui/select/select-item';
 
 const CardExample: FC = (): ReactElement => {
   return (

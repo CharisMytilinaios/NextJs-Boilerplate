@@ -11,8 +11,10 @@ import AlertDialogExample from '@/components/examples/alert-dialog-example';
 import AspectRatioExample from '@/components/examples/aspect-ratio-example';
 import AvatarsExample from '@/components/examples/avatar-example';
 import BadgeExample from '@/components/examples/badge-example';
-import './root-page.scss';
 import DatePickerExample from '@/components/examples/date-picker-example';
+import './root-page.scss';
+import SelectExamples from '@/components/examples/select-examples';
+import CardExample from '@/components/examples/card-example';
 
 const RootPage: FC = (): ReactElement => {
   return (
@@ -70,6 +72,18 @@ const RootPage: FC = (): ReactElement => {
         <h2>Calendar</h2>
         <div className='section__container'>
           <DatePickerExample />
+        </div>
+      </section>
+      <section className='section' id='select'>
+        <h2>Select</h2>
+        <div className='section__container'>
+          <SelectExamples />
+        </div>
+      </section>
+      <section className='section' id='card'>
+        <h2>Cards</h2>
+        <div className='section__container'>
+          <CardExample />
         </div>
       </section>
     </MainPageLayout>
