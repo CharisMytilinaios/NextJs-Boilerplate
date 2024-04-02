@@ -1,3 +1,5 @@
+'use client';
+
 import React, { ComponentPropsWithoutRef, ElementRef, forwardRef, ReactElement } from 'react';
 import { Content, Portal, Viewport } from '@radix-ui/react-select';
 import { cn } from '@/utils/lib';

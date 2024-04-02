@@ -12,9 +12,16 @@ import AspectRatioExample from '@/components/examples/aspect-ratio-example';
 import AvatarsExample from '@/components/examples/avatar-example';
 import BadgeExample from '@/components/examples/badge-example';
 import DatePickerExample from '@/components/examples/date-picker-example';
-import './root-page.scss';
 import SelectExamples from '@/components/examples/select-examples';
 import CardExample from '@/components/examples/card-example';
+import CarouselExamples from '@/components/examples/carousel-examples';
+import CheckboxesExample from '@/components/examples/checkboxes-example';
+import CollapsibleExamples from '@/components/examples/collapsible-examples';
+import CarouselAutoplayExample from '@/components/examples/carousel-autoplay-example';
+import CarouselEventsExample from '@/components/examples/carousel-events-example';
+import PopoverExample from '@/components/examples/popover-example';
+import DialogExample from '@/components/examples/dialog-example';
+import './root-page.scss';
 
 const RootPage: FC = (): ReactElement => {
   return (
@@ -84,6 +91,38 @@ const RootPage: FC = (): ReactElement => {
         <h2>Cards</h2>
         <div className='section__container'>
           <CardExample />
+        </div>
+      </section>
+      <section className='section' id='carousel'>
+        <h2>Carousel</h2>
+        <div className='section__container !gap-[5rem] flex-col'>
+          <CarouselExamples />
+          <CarouselEventsExample />
+          <CarouselAutoplayExample />
+        </div>
+      </section>
+      <section className='section' id='checkboxes'>
+        <h2>Checkboxes</h2>
+        <div className='section__container'>
+          <CheckboxesExample />
+        </div>
+      </section>
+      <section className='section' id='collapsibles'>
+        <h2>Collapsibles</h2>
+        <div className='section__container'>
+          <CollapsibleExamples />
+        </div>
+      </section>
+      <section className='section' id='popover'>
+        <h2>Popover</h2>
+        <div className='section__container'>
+          <PopoverExample />
+        </div>
+      </section>
+      <section className='section' id='dialogs'>
+        <h2>Dialogs</h2>
+        <div className='section__container'>
+          <DialogExample />
         </div>
       </section>
     </MainPageLayout>
