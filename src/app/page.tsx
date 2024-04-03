@@ -25,6 +25,7 @@ import './root-page.scss';
 import DatepickerWithRangeExample from '@/components/examples/datepicker-with-range-example';
 import DatepickerWithPresetsExample from '@/components/examples/datepicker-with-presets-example';
 import DrawerExample from '@/components/examples/drawer-example';
+import ResponsiveDialogDrawer from '@/components/examples/responsive-dialog-drawer';
 
 const RootPage: FC = (): ReactElement => {
   return (
@@ -140,6 +141,7 @@ const RootPage: FC = (): ReactElement => {
         <h2>Drawers</h2>
         <div className='section__container'>
           <DrawerExample />
+          <ResponsiveDialogDrawer />
         </div>
       </section>
     </MainPageLayout>

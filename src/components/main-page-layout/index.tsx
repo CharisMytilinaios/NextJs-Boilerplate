@@ -10,7 +10,7 @@ interface MainPageLayoutProps extends PropsWithChildren {
 
 const MainPageLayout: FC<MainPageLayoutProps> = ({ className = [], children }: MainPageLayoutProps): ReactElement => {
   return (
-    <ScrollArea className='h-full'>
+    <ScrollArea className='main-page-layout'>
       <main className={ cn(className) }>
         {children}
       </main>

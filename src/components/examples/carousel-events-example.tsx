@@ -46,6 +46,7 @@ const CarouselEventsExample: FC = (): ReactElement => {
         <CarouselContent>
           {Array.from({ length: 5 }).map((_, index) => {
             return (
+            // eslint-disable-next-line react/no-array-index-key
               <CarouselItem key={ index }>
                 <Card>
                   <CardContent className='flex aspect-square items-center justify-center p-6'>

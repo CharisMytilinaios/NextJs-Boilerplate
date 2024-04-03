@@ -25,6 +25,7 @@ const CarouselAutoplayExample: FC = (): ReactElement => {
       <CarouselContent>
         {Array.from({ length: 5 }).map((_, index) => {
           return (
+          // eslint-disable-next-line react/no-array-index-key
             <CarouselItem key={ index }>
               <div className='p-1'>
                 <Card>
