@@ -6,6 +6,7 @@ import Header from '@/components/header';
 import Footer from '@/components/footer';
 import { Theme } from '@/types';
 import '@/styles/main.scss';
+import Toaster from '@/components/ui/toast/toaster';
 
 const lato = Lato({
   weight: [ '100', '300', '400', '700', '900' ],
@@ -33,6 +34,7 @@ const RootLayout: FC<PropsWithChildren> = ({
           <Header />
           {children}
           <Footer />
+          <Toaster />
         </ThemeProvider>
       </body>
     </html>

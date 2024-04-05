@@ -1,7 +1,7 @@
 import React, { ComponentPropsWithoutRef, ElementRef, forwardRef, ReactElement } from 'react';
 import { cn } from '@/utils/lib';
-import { useFormField } from '@/components/ui/form';
 import Label from '@/components/ui/label';
+import useFormField from './use-form-field';
 
 const FormLabel = forwardRef<
     ElementRef<typeof Label>,

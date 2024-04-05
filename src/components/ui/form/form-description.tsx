@@ -1,6 +1,6 @@
 import React, { forwardRef, HTMLAttributes, ReactElement } from 'react';
 import { cn } from '@/utils/lib';
-import { useFormField } from '@/components/ui/form';
+import useFormField from './use-form-field';
 
 const FormDescription = forwardRef<
     HTMLParagraphElement,
