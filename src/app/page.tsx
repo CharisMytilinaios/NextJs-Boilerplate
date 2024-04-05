@@ -27,6 +27,13 @@ import DatepickerWithPresetsExample from '@/components/examples/datepicker-with-
 import DrawerExample from '@/components/examples/drawer-example';
 import ResponsiveDialogDrawer from '@/components/examples/responsive-dialog-drawer';
 import ToastsExamples from '@/components/examples/toasts-examples';
+import FormsExample from '@/components/examples/forms-example';
+import RadioButtonsExamples from '@/components/examples/radio-buttons-examples';
+import SwitchesExample from '@/components/examples/switches-example';
+import TextareaExamples from '@/components/examples/textarea-examples';
+import CommandExamples from '@/components/examples/command-examples';
+import CommandExampleKeyExample from '@/components/examples/command-example-key-example';
+import ComboboxExampleSimple from '@/components/examples/combobox-example-simple';
 
 const RootPage: FC = (): ReactElement => {
   return (
@@ -149,6 +156,43 @@ const RootPage: FC = (): ReactElement => {
         <h2>Toasts</h2>
         <div className='section__container'>
           <ToastsExamples />
+        </div>
+      </section>
+      <section className='section' id='radio-groups'>
+        <h2>Radio Buttons/ Radio Groups</h2>
+        <div className='section__container'>
+          <RadioButtonsExamples />
+        </div>
+      </section>
+      <section className='section' id='switches'>
+        <h2>Switches</h2>
+        <div className='section__container'>
+          <SwitchesExample />
+        </div>
+      </section>
+      <section className='section' id='texxtareas'>
+        <h2>Textareas</h2>
+        <div className='section__container'>
+          <TextareaExamples />
+        </div>
+      </section>
+      <section className='section' id='command'>
+        <h2>Command Components</h2>
+        <div className='section__container'>
+          <CommandExamples />
+          <CommandExampleKeyExample />
+        </div>
+      </section>
+      <section className='section' id='combobox'>
+        <h2>Combobox components</h2>
+        <div className='section__container'>
+          <ComboboxExampleSimple />
+        </div>
+      </section>
+      <section className='section' id='forms'>
+        <h2>Forms with Validations</h2>
+        <div className='section__container'>
+          <FormsExample />
         </div>
       </section>
     </MainPageLayout>
