@@ -37,7 +37,7 @@ import ComboboxExampleSimple from '@/components/examples/combobox-example-simple
 
 const RootPage: FC = (): ReactElement => {
   return (
-    <MainPageLayout className='flex flex-col gap-5'>
+    <MainPageLayout>
       <section className='section' id='accordions'>
         <h2>Accordions</h2>
         <AccordionExample />

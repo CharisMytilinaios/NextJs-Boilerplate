@@ -18,6 +18,7 @@ export type ToasterToast = ToastProps & {
     title?: ReactNode;
     description?: ReactNode;
     action?: ToastActionElement;
+    disableClose?: boolean;
 };
 
 export type Action =
